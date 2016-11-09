@@ -11,7 +11,7 @@
 \KOMAoptions{foldmarks=off}
 
 \DTLsetseparator{;}
-\DTLloaddb[noheader,keys={id,sn,gn,mail,c,st,plz,loc,sal,sec,amsec,amsum,num,ref,pref}]{people}{people.csv}
+\DTLloaddb[noheader,keys={id,sn,gn,mail,c,st,plz,loc,sal,sec,amsec,amsum,num,ref,pref,fdate,fyear}]{people}{people.csv}
 
 % VARIABLES START
 \newcommand{\amountpps}{80.00}
@@ -33,14 +33,14 @@
 \setkomavar{fromemail}{finance@partipirate.ch}
 \setkomavar{fromurl}{www.partipirate.ch}
 \setkomavar{backaddress}{}
-\setkomavar{date}{14~Octobre~2016}
 
 \newcommand{\currency}{CHF}
 
 \begin{document}
 
-\DTLforeach{people}{\id=id,\surname=sn,\givenname=gn,\country=c,\street=st,\postalcode=plz,\location=loc,\salut=sal,\sectionname=sec,\amountsection=amsec,\amountsum=amsum,\invoicenr=num,\reference=ref,\prefix=pref}{%
+\DTLforeach{people}{\id=id,\surname=sn,\givenname=gn,\country=c,\street=st,\postalcode=plz,\location=loc,\salut=sal,\sectionname=sec,\amountsection=amsec,\amountsum=amsum,\invoicenr=num,\reference=ref,\prefix=pref,\facdate=fdate,\facyear=fyear}{%
 
+\setkomavar{date}{\facdate}
 \setkomavar{subject}{Cotisation {\invoicenr}}
  
 \selectlanguage{french}
@@ -78,16 +78,16 @@
 
 \opening{\salut}
 
-La cotisation annuelle 2016 est comme suit:
+La cotisation annuelle \facyear est comme suit:
 
 \ifstr{\sectionname}{\empty}{%
 
 \begin{tabular}{ l l r }
-\hspace{8cm}                    &               &                       \\
-\textbf{Cotisation 2016}          &               & \textbf{Montant}       \\
-Parti Pirate Suisse             & \currency     & \amountpps            \\
+\hspace{8cm}                          &               &                       \\
+\textbf{Cotisation \facyear}          &               & \textbf{Montant}       \\
+Parti Pirate Suisse                   & \currency     & \amountpps            \\
 \hline
-Total                           & \currency     & \amountsum            \\
+Total                                 & \currency     & \amountsum            \\
 \end{tabular}
 
 \vspace{0.5cm}
@@ -96,12 +96,12 @@ Le Parti Pirate Suisse te remercie pour ton soutien!
 }{%
 
 \begin{tabular}{ l l r }
-\hspace{8cm}                    &               &                       \\
-\textbf{Cotisation 2016}        &               & \textbf{Montant}       \\
-Parti Pirate Suisse             & \currency     & \amountpps            \\
-\sectionname                    & \currency     & \amountsection        \\
+\hspace{8cm}                        &               &                       \\
+\textbf{Cotisation \facyear}        &               & \textbf{Montant}       \\
+Parti Pirate Suisse                 & \currency     & \amountpps            \\
+\sectionname                        & \currency     & \amountsection        \\
 \hline
-Total                           & \currency     & \amountsum            \\
+Total                               & \currency     & \amountsum            \\
 \end{tabular}
 
 \vspace{0.5cm}

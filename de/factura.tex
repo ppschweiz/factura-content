@@ -11,7 +11,7 @@
 \KOMAoptions{foldmarks=off}
 
 \DTLsetseparator{;}
-\DTLloaddb[noheader,keys={id,sn,gn,mail,c,st,plz,loc,sal,sec,amsec,amsum,num,ref,pref}]{people}{people.csv}
+\DTLloaddb[noheader,keys={id,sn,gn,mail,c,st,plz,loc,sal,sec,amsec,amsum,num,ref,pref,fdate,fyear}]{people}{people.csv}
 
 % VARIABLES START
 \newcommand{\amountpps}{80.00}
@@ -33,15 +33,15 @@
 \setkomavar{fromemail}{finance@piratenpartei.ch}
 \setkomavar{fromurl}{www.piratenpartei.ch}
 \setkomavar{backaddress}{}
-\setkomavar{date}{14.~Oktober~2016}
 
 
 \newcommand{\currency}{1}
 
 \begin{document}
 
-\DTLforeach{people}{\id=id,\surname=sn,\givenname=gn,\country=c,\street=st,\postalcode=plz,\location=loc,\salut=sal,\sectionname=sec,\amountsection=amsec,\amountsum=amsum,\invoicenr=num,\reference=ref,\prefix=pref}{%
+\DTLforeach{people}{\id=id,\surname=sn,\givenname=gn,\country=c,\street=st,\postalcode=plz,\location=loc,\salut=sal,\sectionname=sec,\amountsection=amsec,\amountsum=amsum,\invoicenr=num,\reference=ref,\prefix=pref,\facdate=fdate,\facyear=fyear}{%
 
+\setkomavar{date}{\facdate}
 \setkomavar{subject}{Rechnung {\invoicenr}}
 
 \selectlanguage{ngerman}
@@ -84,11 +84,11 @@ Der Mitgliederbetrag setzt sich dieses Jahr wie folgt zusammen:
 \ifstr{\sectionname}{\empty}{%
 
 \begin{tabular}{ l l r }
-\hspace{8cm}                    &               &                       \\
-\textbf{Mitgliedschaft 2016}    &               & \textbf{Betrag}       \\
-Piratenpartei Schweiz           & \currency     & \amountpps            \\
+\hspace{8cm}                        &               &                       \\
+\textbf{Mitgliedschaft \facyear}    &               & \textbf{Betrag}       \\
+Piratenpartei Schweiz               & \currency     & \amountpps            \\
 \hline
-Total                           & \currency     & \amountsum            \\
+Total                               & \currency     & \amountsum            \\
 \end{tabular}
 
 \vspace{0.5cm}
@@ -97,12 +97,12 @@ Die Piratenpartei Schweiz dankt Dir für deine Unterstützung!
 }{%
 
 \begin{tabular}{ l l r }
-\hspace{8cm}                    &               &                       \\
-\textbf{Mitgliedschaft 2016}    &               & \textbf{Betrag}       \\
-Piratenpartei Schweiz           & \currency     & \amountpps            \\
-\sectionname                    & \currency     & \amountsection        \\
+\hspace{8cm}                        &               &                       \\
+\textbf{Mitgliedschaft \facyear}    &               & \textbf{Betrag}       \\
+Piratenpartei Schweiz               & \currency     & \amountpps            \\
+\sectionname                        & \currency     & \amountsection        \\
 \hline
-Total                           & \currency     & \amountsum            \\
+Total                               & \currency     & \amountsum            \\
 \end{tabular}
 
 \vspace{0.5cm}
