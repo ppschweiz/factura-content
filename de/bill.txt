@@ -1,0 +1,6 @@
+$GREET
+
+Bitte Mitgliedsbeitrag bezahlen!
+
+Gruss
+PP
