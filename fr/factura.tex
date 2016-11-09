@@ -69,7 +69,7 @@
 	\givenname~\surname\\
 	\street~\\
 	\postalcode~\location\\
-	\country
+	\country~
 }
 
 }
@@ -111,7 +111,7 @@ Ta Section et le Parti Pirate Suisse te remercie pour ton soutien!
 
 \ifstr{\country}{Switzerland}{%
 
-\esrEinbezahltVon{\givenname~\surname \\ \street \\ \postalcode~\location}
+\esrEinbezahltVon{\givenname~\surname \\ \street~ \\ \postalcode~\location}
 \expandafter\esrBetrag\expandafter{\amountsum}
 \expandafter\esrPrefix\expandafter{\prefix}
 \expandafter\esrReferenznummer\expandafter{\reference}
