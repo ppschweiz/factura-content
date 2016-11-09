@@ -1,0 +1,129 @@
+%%
+%% This is file `esrpos.sty',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% esr.dtx  (with options: `esrpos')
+%% 
+%% Copyright (C) 2007-2010 by Christian Luginbühl
+%% 
+%% This work may be distributed and/or modified under the conditions
+%% of the LaTeX Project Public License, either version 1.3 of this
+%% license or (at your option) any later version.
+%% 
+%% The latest version of this license is in
+%% 
+%%   http://www.latex-project.org/lppl.txt
+%% 
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+%% 
+%% This work has the LPPL maintenance status `maintained'.
+%% 
+%% The Current Maintainer of this work is:
+%% 
+%%   Christian Luginbühl, dinkel@pimprecords.com
+%% 
+%% This work consists of the files:
+%% 
+%%   esr.ins, esr.dtx and the derived files esr.sty, esrpos.sty, esr.pdf
+%% 
+\NeedsTeXFormat{LaTeX2e}[1999/12/01]
+\ProvidesPackage{esrpos}
+  [2010/08/02 v0.8.1 'Einzahlungsschein mit Referenznummer' positioning package]
+\RequirePackage[absolute]{textpos}
+\textblockorigin{0mm}{0mm}
+\newlength{\esrposV@origParIndent}
+\newlength{\esrposV@origParSkip}
+\newcommand{\esrposM@prePrint} {
+  \setlength{\esrposV@origParIndent}{\parindent}
+  \setlength{\esrposV@origParSkip}{\parskip}
+  \setlength{\parindent}{0mm}
+  \setlength{\parskip}{0mm}
+}
+\newcommand{\esrposM@postPrint} {
+  \setlength{\parskip}{\esrposV@origParSkip}
+  \setlength{\parindent}{\esrposV@origParIndent}
+}
+\newcommand{\esrposM@formatNormal}[1] {
+  \esrposM@prePrint
+  \usefont{OT1}{phv}{m}{n}\fontsize{9pt}{12pt}\selectfont
+  #1%
+  \esrposM@postPrint
+}
+\newcommand{\esrposM@formatOCRB}[1] {
+  \esrposM@prePrint
+  \usefont{OT1}{ocrb}{m}{n}\fontsize{10pt}{12pt}\selectfont
+  #1%
+  \esrposM@postPrint
+}
+\newcommand{\esrposEinzahlungFuer}[1] {
+  \begin{textblock*}{5.0cm}(6.58cm, 20.1cm)
+    \esrposM@formatNormal{#1}
+  \end{textblock*}
+}
+\newcommand{\esrposBelegEinzahlungFuer}[1] {
+  \begin{textblock*}{5.0cm}(0.5cm, 20.1cm)
+    \esrposM@formatNormal{#1}
+  \end{textblock*}
+}
+\newcommand{\esrposZugunstenVon}[1] {
+  \begin{textblock*}{5.0cm}(6.58cm, 21.4cm)
+    \esrposM@formatNormal{#1}
+  \end{textblock*}
+}
+\newcommand{\esrposBelegZugunstenVon}[1] {
+  \begin{textblock*}{5.0cm}(0.5cm, 21.4cm)
+    \esrposM@formatNormal{#1}
+  \end{textblock*}
+}
+\newcommand{\esrposKonto}[1] {
+  \begin{textblock*}{2.5cm}[0, 1.0](9.08cm, 23.65cm)
+    \esrposM@formatNormal{#1}
+  \end{textblock*}
+}
+\newcommand{\esrposBelegKonto}[1] {
+  \begin{textblock*}{2.5cm}[0, 1.0](3.0cm, 23.65cm)
+    \esrposM@formatNormal{#1}
+  \end{textblock*}
+}
+\newcommand{\esrposBetrag}[2] {
+  \begin{textblock*}{3.8cm}[1.0, 0.5](10.28cm, 24.42cm)
+    \esrposM@formatOCRB{\begin{flushright}#1\end{flushright}}
+  \end{textblock*}
+  \begin{textblock*}{3.8cm}[0, 0.5](11.03cm, 24.42cm)
+    \esrposM@formatOCRB{#2}
+  \end{textblock*}
+}
+\newcommand{\esrposBelegBetrag}[2] {
+  \begin{textblock*}{3.8cm}[1.0, 0.5](4.2cm, 24.42cm)
+    \esrposM@formatOCRB{\begin{flushright}#1\end{flushright}}
+  \end{textblock*}
+  \begin{textblock*}{3.8cm}[0, 0.5](4.95cm, 24.42cm)
+    \esrposM@formatOCRB{#2}
+  \end{textblock*}
+}
+\newcommand{\esrposEinbezahltVon}[1] {
+  \begin{textblock*}{7.3cm}(12.68cm, 23.9cm)
+    \esrposM@formatNormal{#1}
+  \end{textblock*}
+}
+\newcommand{\esrposBelegEinbezahltVon}[1] {
+  \begin{textblock*}{5.0cm}(0.5cm, 25.2cm)
+    \esrposM@formatNormal{#1}
+  \end{textblock*}
+}
+\newcommand{\esrposReferenznummer}[1] {
+  \begin{textblock*}{8.6cm}[0.5, 0.5](16.495cm, 22.67cm)
+    \esrposM@formatOCRB{\begin{center}#1\end{center}}
+  \end{textblock*}
+}
+\newcommand{\esrposKodierzeile}[1] {
+  \begin{textblock*}{14.986cm}[1.0, 0.5](20.34cm, 27.79cm)
+    \esrposM@formatOCRB{\begin{flushright}#1\end{flushright}}
+  \end{textblock*}
+}
+\endinput
+%%
+%% End of file `esrpos.sty'.
