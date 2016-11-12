@@ -1,6 +1,8 @@
 $GREET
 
-Payer tot cotisation svp!
+Payer bientôt cotisation svp!
+
+$PAYURL
 
 Saluations
 PP

@@ -2,5 +2,7 @@ $GREET
 
 Bitte jetzt umgehend Mitgliedsbeitrag bezahlen!
 
+$PAYURL
+
 Gruss
 PP

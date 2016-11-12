@@ -1,0 +1,8 @@
+$GREET
+
+Payer cotisation à l'instant svp!
+
+$PAYURL
+
+Saluations
+PP
