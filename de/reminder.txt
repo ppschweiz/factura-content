@@ -1,8 +1,13 @@
 $GREET
 
-Bitte jetzt Mitgliedsbeitrag bezahlen!
+Wir möchten dich daran erinnern, dass dein Mitgliedsbeitrag 2017 bei der Piratenpartei noch offen ist. Falls sich dieses E-Mail mit deiner Zahlung gekreuzt haben sollte, betracht die Erinnerung bitte als gegenstandslos.
 
-$PAYURL
+Im Anhang dieses E-Mails findest du die Jahresrechnung 2017 für deine Mitgliedschaft in der Piratenpartei. Du kannst deinen Mitgliedsbeitrag per Überweisung oder alternativ auch per Kreditkarte oder Bitcoin bezahlen: $PAYURL
 
-Gruss
-PP
+Mit der Zahlung wirst du gemäss  Statuten "Pirat", erhältst Stimm- und Wahlrecht und bekommst bald weitere tolle Leistungen. Dein  Mitgliederbeitrag für das Jahr 2017 ist essentiell für das weitere Gedeihen der Piratenpartei und das Erreichen unserer gemeinsamen Ziele.
+
+Wir danken dir für deinen Beitrag!
+
+Stefan Thöni
+Co-Präsident
+Piratenpartei Schweiz
