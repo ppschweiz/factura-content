@@ -1,51 +1,35 @@
 $GREET
 
-Nous sommes très heureux de t'accueillir comme nouveau membre du Parti PIrate !
+Willkommen in der Piratenpartei, du wurdest soeben als Mitglied aufgenommen und wir freuen uns, dich bei den Piraten begrüssen zu dürfen. Falls du Fragen hast, kannst du dich jederzeit bei uns melden.
 
-Nous sommes un jeune parti qui fonctionne surtout de manière militante, en collaboration libre, et tu trouveras ci-après des informations essentielles pour ta participation à nos instances et activités, selon tes envies et tes compétences. 
+Wir sind eine sehr junge Partei, welche nur über den freiwilligen Beitrag von jedem funktioniert . Nachfolgend findest du Informationen wie du bei uns Piraten mitmachen und dich einbringen kannst.
 
-*Qui sommes-nous*
+Das Tagesgeschäft der Piratenpartei auf nationaler Ebene besorgt der Vorstand, geleitet von den Co-Präsidenten Stefan Thöni und Guillaume Saouli. Du kannst jederzeit in unsere Arbeitsplattform reinschauen. Wenn du eine Frage oder Idee z.B. für politischen Inhalte oder eine piratige Aktion hast, wende dich an Stefan Thöni, Telefon +41 79 610 64 95 oder E-Mail stefan.thoeni@piratenpartei.ch.
 
-_Le Parti Pirate Suisse_
- 
-Le fonctionnement quotidien du Parti Pirate au niveau national est sous la responsabilité du comité, dirigé par les deux Co-Présidents, Stefan Thöni et Guillaume Saouli.  
+Die wichtigen politischen und organisatorischen Entscheidungen trifft die Piratenversammlung, an der jedes Mitglied aktiv mitbestimmen kann. Die Versammlung findet mindestens zwei mal im Jahr an wechselnden Orten in der Schweiz statt. Sie wird geleitet vom Versammlungspräsidium um Daniel Cezskowski. Aktuelle Informationen findest du im Projekt der Piratenversammlung.
 
-Tu peux en tout temps suivre le développement de nos projets sur notre plate-forme de travail :  https://projects.piratenpartei.ch/projects/pps-board  
+Wichtige Informationen, wie die Einladung zur Piratenversammlung, werden jeweils per E-Mail versendet. Zudem kannst du dich auf der Koordinations-Mailingliste eintragen, um aktuelle Informationen über anstehende Aktionen und Debatten frühzeitig zu erhalten.
 
-Si tu as des questions ou des propositions, que ce soit au niveau du contenu politique ou pour mener des actions pirates, tu peux t'adresser à
-Guillaume Saouli
-co-président Parti Pirate Suisse
-email: guillaume.saouli@partipirate.ch
-GSM: 078 921 3740
-twitter: @gsaouli
+Die Piratenpartei ist eine Mitmachpartei. Du kannst folgendermassen mithelfen:
+- Du willst dich mit anderen Piraten über Politik unterhalten? Gehe zum Stammtisch in deiner Nähe:
+  - Stammtisch Zürich
+  - Stammtisch Bern
+  - Stammtisch Basel
+  - Stammtisch Zug
+  - Stammtisch St. Gallen
+  - Stammtisch Aargau
+- Dich interessieren Gemeindethemen? Finde Gleichgesinnte und steige in die Gemeindepolitik ein. Wende Dich an deine Kantonale Sektion, sie kann Kontakte vermitteln.
+- Dich interessiert ein bestimmtes politisches Thema besonders? Entwickle unser Programm weiter. Wende Dich an Stefan Thöni.
+- Du kannst gut schreiben? Schreibe oder korrigiere politische Texte für uns. Wende Dich an Stefan Thöni.
+- Du versteht Dich auf Design? Erstelle Grafiken oder Fotos für uns. Wende Dich an Moira Brülisauer.
+- Du bist Informatiker? Hilf unsere Informatikinfrastruktur zu warten und auszubauen. Wende Dich an Jan Fader.
 
-Les décisions essentielles en matière politique comme organisationnelle sont prise par l'Assemble Pirate, à laquelle tu peux participer et voter. Cette Assemblée a lieu au moins deux fois par an dans une ville différente de Suisse. Elle est dirigée par le Président de l'Assemblée Pirate, Daniel Cezskowski. Tu trouves toutes les informations actuelles dans le projet https://projects.piratenpartei.ch/projects/statrev .
+Um unsere politischen Ziele zu erreichen stützen wir uns hauptsächlich auf das freiwillige Engagement und die Fähigkeiten unserer Mitglieder ab. Trotzdem brauchen wir, wie jede Organisation, auch Geld für unsere politische Arbeit, für Pressekonferenzen, Flyer, Plakate, Standaktionen und Versammlungen. Deshalb ist dein Beitrag an die Piratenpartei Schweiz von 80 Franken im Jahr für uns sehr wichtig. Der Mitgliederbeitrag und das Budget werden jedes Jahr durch die Piratenversammlung bestimmt. Weil Dein Beitrag für die Promotion unserer Ideale so wichtig ist, danken wir dir herzlich dafür!
 
-_Les sections_
+Bei Fragen zur Piratenpartei, Ihrer Struktur, Ihren technischen Werkzeugen, etc. kannst du dich einfach an den Piratensupport wenden.
 
-Le Parti Pirate fonctionne de manière collaborative. Ta participation active nous sera énormément utile. N'hésite pas à contacter ta section cantonale :
+Freundliche Grüsse
 
-- Genève: comite@ge.partipirate.ch
-- Vaud : comite@vd.partipirate.ch
-- Valais: comite@vs.partipirate.ch
-- Neuchatel: comite@ne.partipirate.ch
-- Berne: vorstand@be.piratenpartei.ch
-
-*Comment peux-tu agir comme Pirate ?*
-
-- Si la politique locale, les affaires publiques de ta région t'intéresse, annonce-toi auprès de ta section cantonale où tu pourras avoir des infos précises et prendre des responsabilités si tu le souhaites.
-- Si tu souhaites approfondir en particulier certains thèmes politiques, tu peux participer au développement de notre programme, adresse-toi à Guillaume Saouli.
-- Tu as une belle plume? tu peux nous aider pour la rédaction ou la correction de nos textes, adresse-toi à Marie-France Perroud.
-- Tu t'y connais en design ? Tu peux réaliser des illustrations, des photos ou des graphiques pour nous. Contacte Moira Brülisauer.
-- Si tu es informaticien, tu peux nous aider dans le développement de notre infrastructure informatique, adresse-toi à Jan Fader.
-- Si tu as des questions sur la structure du  Parti, ses outils techniques etc, tu peux aussi t'adresser directement  à  support@piratenpartei.ch .
-
-Pour notre développement, nous nous appuyons beaucoup sur l'engagement des membres, la mise en commun des compétences et les contributions libres de chaque pirate selon ses disponibilités. 
-Malgré cela, comme toute organisation, nous avons besoin d'une participation financière pour soutenir notre développement. Nous organisons des conférence de presse pour faire connaître nos actions et valeurs au grand public, nous avons du matériel à imprimer que ce soit pour des référendum ou des pétitions, pour la tenue des stands électoraux etc. Ici, ta contribution est indispensable aussi.
-Comme membre du Parti Pirate Suisse, elle s'élève à Fr. 80.-- par année, plus une cotisation de section. Le règlement de cette cotisation te donne le droit de vote aux Assembles Pirates. L'aspect financier est indispensable au développement du Parti et à la promotion de ses idéaux, nous te remercions vivement d'y contribuer.
-
-Nous nous réjouissons de compter un nouveau Pirate sur le navire ! En te souhaitant une bonne navigation sur notre site et nos activités, nous t'adressons nos meilleures salutations pirates :-)
-
-Guillaume Saouli
-co-président
-Parti Pirate Suisse
+Stefan Thöni
+Co-Präsident
+Piratenpartei Schweiz
