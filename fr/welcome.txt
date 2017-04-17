@@ -34,11 +34,11 @@ Le Parti Pirate fonctionne de manière collaborative. Ta participation active no
 *Comment peux-tu agir comme Pirate ?*
 
 - Si la politique locale, les affaires publiques de ta région t'intéresse, annonce-toi auprès de ta section cantonale où tu pourras avoir des infos précises et prendre des responsabilités si tu le souhaites.
-- Si tu souhaites approfondir en particulier certains thèmes politiques, tu peux participer au développement de notre programme, adresse-toi à Guillaume Saouli.
-- Tu as une belle plume? tu peux nous aider pour la rédaction ou la correction de nos textes, adresse-toi à Marie-France Perroud.
-- Tu t'y connais en design ? Tu peux réaliser des illustrations, des photos ou des graphiques pour nous. Contacte Moira Brülisauer.
-- Si tu es informaticien, tu peux nous aider dans le développement de notre infrastructure informatique, adresse-toi à Jan Fader.
-- Si tu as des questions sur la structure du  Parti, ses outils techniques etc, tu peux aussi t'adresser directement  à  support@piratenpartei.ch .
+- Si tu souhaites approfondir en particulier certains thèmes politiques, tu peux participer au développement de notre programme, adresse-toi à Guillaume Saouli (info@partipirate.ch).
+- Tu as une belle plume? tu peux nous aider pour la rédaction ou la correction de nos textes, adresse-toi à Marie-France Perroud (info@partipirate.ch).
+- Tu t'y connais en design ? Tu peux réaliser des illustrations, des photos ou des graphiques pour nous. Contacte Moira Brülisauer (support@partipirate.ch).
+- Si tu es informaticien, tu peux nous aider dans le développement de notre infrastructure informatique, adresse-toi à Stefan Thöni (di@partipirate.ch).
+- Si tu as des questions sur la structure du  Parti, ses outils techniques etc, tu peux aussi t'adresser directement à support@piratenpartei.ch.
 
 Pour notre développement, nous nous appuyons beaucoup sur l'engagement des membres, la mise en commun des compétences et les contributions libres de chaque pirate selon ses disponibilités. 
 Malgré cela, comme toute organisation, nous avons besoin d'une participation financière pour soutenir notre développement. Nous organisons des conférence de presse pour faire connaître nos actions et valeurs au grand public, nous avons du matériel à imprimer que ce soit pour des référendum ou des pétitions, pour la tenue des stands électoraux etc. Ici, ta contribution est indispensable aussi.
