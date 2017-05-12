@@ -11,7 +11,7 @@
 \KOMAoptions{foldmarks=off}
 
 \DTLsetseparator{;}
-\DTLloaddb[noheader,keys={id,sn,gn,mail,c,st,plz,loc,sal,sec,amsec,amsum,num,ref,pref,fdate,fyear}]{people}{people.csv}
+\DTLloaddb[noheader,keys={id,sn,gn,mail,c,st,plz,loc,sal,sec,amsec,amsum,num,ref,pref,fdate,fyear,slip}]{people}{people.csv}
 
 % VARIABLES START
 \newcommand{\amountpps}{80.00}
@@ -39,7 +39,7 @@
 
 \begin{document}
 
-\DTLforeach{people}{\id=id,\surname=sn,\givenname=gn,\country=c,\street=st,\postalcode=plz,\location=loc,\salut=sal,\sectionname=sec,\amountsection=amsec,\amountsum=amsum,\invoicenr=num,\reference=ref,\prefix=pref,\facdate=fdate,\facyear=fyear}{%
+\DTLforeach{people}{\id=id,\surname=sn,\givenname=gn,\country=c,\street=st,\postalcode=plz,\location=loc,\salut=sal,\sectionname=sec,\amountsection=amsec,\amountsum=amsum,\invoicenr=num,\reference=ref,\prefix=pref,\facdate=fdate,\facyear=fyear,\slip=slip}{%
 
 \setkomavar{date}{\facdate}
 \setkomavar{subject}{Rechnung {\invoicenr}}
@@ -47,8 +47,9 @@
 \selectlanguage{ngerman}
 
 \ifstr{\country}{Switzerland}{%
+	\ifstr{\slip}{yes}{%
     \AddToShipoutPicture{\put(0,0){\includegraphics[width=\paperwidth]{orange-pay.png}}
-    }
+    }}
     
     \renewcommand{\currency}{CHF}
 }{%
