@@ -1,12 +1,12 @@
 $GREET
 
-Nous vous adressons nos meilleurs voeux pour les fêtes de fin d'année, et une excellente année 2018.
+Nous vous adressons nos meilleurs voeux pour les fêtes de fin d'année, et une excellente année 2019.
 
 Pour le Parti Pirate, 2018 sera encore une année riche en activités et engagements. 
 Notamment :
 * En 2019, il y aura des élections au Conseil national et des élections au Conseil des Etats. Nous y participerons!
 * L'initiative pour la transparence du financement de la vie politique a aboutit et la votation populaire est prévue pour 2019.
-* La révision complète des Droits d'auteur, avec un durcissement de la loi, et l'introduction du principe des 3 strikes.
+* La révision complète des Droits d'auteur, avec un durcissement de la loi, et l'introduction du upload-filtre principe des 3 strikes.
 * La poursuite de notre campagne pour la légalisation du cannabis.
 
 Afin de nous aider concrètement à poursuivre ces objectifs, nous avons comme toujours besoin de votre engagement, de vos compétences et de votre temps ! Ce n'est qu'ensemble que nous atteindrons nos objectifs.
@@ -22,6 +22,6 @@ Votre contribution est essentielle pour le fonctionnement actuel et futur du Par
 
 Avec nos meilleures salutations,
 
-Guillaume Saouli
-Co-Président
+Andreas Zimmermann
+Treasurer
 Parti Pirate Suisse
