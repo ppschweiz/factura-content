@@ -1,4 +1,4 @@
-$Greet
+$GREET
 
 Dans la pièce jointe à ce courriel, vous trouverez les états financiers 2019 de votre adhésion au Parti Pirate.  Vous pouvez payer votre cotisation par virement bancaire ou par carte de crédit ou Bitcoin. $PAYURL
 
