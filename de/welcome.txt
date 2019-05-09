@@ -33,8 +33,9 @@ Stammtisch in deiner Nähe:
   - Stammtisch Zug
   - Stammtisch St. Gallen
   - Stammtisch Aargau
-  
-  Wenn du eine Frage, eine Idee z.B. für politischen Inhalte, eine piratige Aktion hast oder auf andere Weise mithelfen möchtest, uns nach vorne zu bringen, wende dich doch per E-Mail an uns.
+- Wenn du eine Frage, eine Idee z.B. für politischen Inhalte, eine 
+  piratige Aktion hast oder auf andere Weise mithelfen möchtest, uns nach 
+  vorne zu bringen, wende dich doch per E-Mail an uns.
 
 Um unsere politischen Ziele zu erreichen stützen wir uns hauptsächlich
 auf das freiwillige Engagement und die Fähigkeiten unserer Mitglieder
