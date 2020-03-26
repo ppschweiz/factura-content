@@ -1,6 +1,6 @@
 $GREET
 
-IIm Anhang findest du die Rechnung für deine Mitgliedschaft in der Piratenpartei. Du kannst deinen Mitgliedsbeitrag per Überweisung, per Kreditkarte oder auch mit Bitcoin bezahlen: $PAYURL
+Im Anhang findest du die Rechnung für deine Mitgliedschaft in der Piratenpartei. Du kannst deinen Mitgliedsbeitrag per Überweisung, per Kreditkarte oder auch mit Bitcoin bezahlen: $PAYURL
 
 Mit der Zahlung wirst du gemäss Statuten «Pirat» und bekommst Stimm- und Wahlrecht. Dein Beitrag ist essentiell für das Gedeihen der Piratenpartei und das Erreichen unserer gemeinsamen Ziele. Aktuell stehen folgende politische Themen auf unserer Agenda:
 
